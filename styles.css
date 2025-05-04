@@ -22,7 +22,6 @@ img{
     text-align: center;
     border: none;
     cursor: pointer;
-    /* margin: 1rem auto; */
     transition: background-color 0.3s, transform 0.3s;
 }
 .btn-primary:hover{
@@ -43,6 +42,7 @@ nav{
     left: 0;
     right: 0;
     z-index: 10;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 
 }
 .navbar{
@@ -75,7 +75,7 @@ nav{
 
 /* ===========================PRODUCT Section======================== */ */
 .products{
-    margin: 2rem auto;
+    margin: 4rem auto;
     padding: 2rem 0;
 }
 .featured-products{
@@ -185,7 +185,6 @@ footer p{
         position: fixed;
         background-color: rgb(160, 230, 207);
         width: 100%;
-        /* margin: 0.3rem auto; */
         height: 100vh;
         padding: 2rem ;
         flex-direction: column;

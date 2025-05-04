@@ -1,6 +1,11 @@
 # 🛒 MyShop - eCommerce Website
 
+ Author
+Name: Quol Peter 
 
+GitHub: github/Quol04
+
+Email: kuolamol77@gmail.com
 
 
 

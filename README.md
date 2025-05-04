@@ -1,3 +1,13 @@
+# 🛒 MyShop - eCommerce Website
+
+
+
+
+
+
+
+---------------------------------------------
+
 # Final Project and Deployment
 
 ## Objectives

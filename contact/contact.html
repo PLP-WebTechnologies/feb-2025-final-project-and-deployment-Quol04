@@ -9,29 +9,64 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">MyShop</a>
-
-        <div class="nav-links">
-           <a href="index.html">Home</a>
-           <a href="/products/products.html">Products</a>
-           <a href="/about/about.html">About</a>
-           <a href="/contact/contact.html">Contact</a>
-           <a href="#">Cart</a>
-        </div>
+        <section class="navbar container">
+            <a href="../index.html" class="logo">MyShop</a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../products/products.html">Products</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contact.html">Contact</a>
+                <a href="#">Cart</a>
+            </div>
+        </section>
     </nav>
+    <!-- ==============MAIN SECTION ================== -->
+    <section class="contact container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please feel free to reach out to us. We would love to hear from you!</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <h3>Our Address</h3>
+            <p>123 MyShop Street, Nairobi, Kenya</p>
+            <h3>Phone</h3>
+            <p>(123) 456-7890</p>
+            <h3>Email</h3>
+            <p>achotjak@gmail.com</p>
+        </div>
+    </section>
+
     
-      <!-- ==============FOOTER SECTION ================== -->
-      <footer class="footer">
+   <!-- ==============FOOTER SECTION ================== -->
+   <footer class="footer">
+    <section class="footer-sec container">
         <div class="footer-content">
         <h3>MyShop</h3>
         <p>Your one-stop shop for all your needs.</p>
-        <ul class="socials">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
+        
         </div>
-        <p>&copy; 2025 MyShop. All rights reserved.</p>
-    </footer>
+        <div class="footer-links">
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+                <a href="#">Returns</a>
+                <a href="#">Shipping</a>
+            </div>
+            <div class="footer-copyright">
+               <p>&copy; 2025 MyShop. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="../script.js"></script>
 </body>
 </html>

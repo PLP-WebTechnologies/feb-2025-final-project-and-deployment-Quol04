@@ -5,33 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyShop-Products</title>
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="product.css" />
 </head>
 <body>
     <nav>
-        <a href="index.html">MyShop</a>
-
-        <div class="nav-links">
-           <a href="index.html">Home</a>
-           <a href="/products/products.html">Products</a>
-           <a href="/about/about.html">About</a>
-           <a href="/contact/contact.html">Contact</a>
-           <a href="#">Cart</a>
-        </div>
+        <section class="navbar container">
+            <a href="../index.html" class="logo">MyShop</a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../products/products.html">Products</a>
+                <a href="../about/about.html">About</a>
+                <a href="../contact/contact.html">Contact</a>
+                <a href="#">Cart</a>
+            </div>
+        </section>
     </nav>
     
-      <!-- ==============FOOTER SECTION ================== -->
-      <footer class="footer">
-        <div class="footer-content">
-        <h3>MyShop</h3>
-        <p>Your one-stop shop for all your needs.</p>
-        <ul class="socials">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
+
+<!-- ==============MAIN SECTION ================== -->
+<section class="products">
+    <div class="featured-products container">
+       <h2>More Details about our Products</h2>
+       <div class="products-con">
+            <div class="product-card">
+                <img src="../images/product1.jpg" alt="Product 1" />
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+                <p>Product 1 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../images/product2.jpg" alt="Product 2" />
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+                <p>Product 2 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../images/product3.jpg" alt="Product 3" />
+                <h3>Product 3</h3>
+                <p>$32.99</p>
+                <p>Product 3 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../images/product4.jpg" alt="Product 4" />
+                <h3>Product 4</h3>
+                <p>$48.99</p>
+                <p>Product 4 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../images/product5.jpg" alt="Product 5" />
+                <h3>Product 5</h3>
+                <p>$45.99</p>
+                <p>Product 5 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="../images/product6.jpg" alt="Product 6" />
+                <h3>Product 6</h3>
+                <p>$44.99</p>
+                <p>Product 6 description goes here. It is a great product that you will love.</p>
+                <div class="details">
+                    <button class="btn-primary">Add to Cart</button>
+                </div>
+            </div>
         </div>
-        <p>&copy; 2025 MyShop. All rights reserved.</p>
+    </div>
+
+</section>
+ 
+    <!-- ==============FOOTER SECTION ================== -->
+    <footer class="footer">
+        <section class="footer-sec container">
+            <div class="footer-content">
+            <h3>MyShop</h3>
+            <p>Your one-stop shop for all your needs.</p>
+        
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Shipping</a>
+                </div>
+                <div class="footer-copyright">
+                   <p>&copy; 2025 MyShop. All rights reserved.</p>
+                </div>
+            </div>
+        </section>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>

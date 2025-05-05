@@ -1,13 +1,17 @@
 # 🛒 MyShop - eCommerce Website
 
- Author
+ ## Author
 Name: Quol Peter 
 
 GitHub: github/Quol04
 
 Email: kuolamol77@gmail.com
 
+---
 
+## Demo
+
+[Live Demo](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Quol04/)
 
 
 

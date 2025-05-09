@@ -14,7 +14,6 @@ Email: kuolamol77@gmail.com
 [Live Demo](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Quol04/)
 
 
-
 ---------------------------------------------
 
 # Final Project and Deployment
@@ -23,6 +22,8 @@ Email: kuolamol77@gmail.com
 Build a fully functional web application.
 Apply HTML, CSS, and JavaScript concepts learned.
 Deploy the project using GitHub Pages, Netlify, or Vercel.
+
+---
 
 ## Instructions
 Choose one of the following project ideas:
